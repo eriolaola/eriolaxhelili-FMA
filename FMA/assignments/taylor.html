@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift Fan Page</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            width: 80%;
+            background-color: #f2f2f2;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        audio, video {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+        footer {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taylor Swift Fan Page</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#music">Music</a>
+            <a href="#videos">Videos</a>
+            <a href="#photos">Photos</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Taylor Swift</h2>
+        <p>Taylor Alison Swift is an American singer-songwriter known for narrative songs about her personal life, which have received widespread critical praise and media coverage.</p>
+    </section>
+
+    <section id="music">
+        <h2>Music</h2>
+        <p>Listen to some of her greatest hits:</p>
+        <audio controls>
+            <source src="Taylor_Swift_-_Enchanted_[_YouConvert.net_].mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <p>Watch some of her popular music videos:</p>
+        <video controls>
+            <source src="https://www.youtube.com/watch?v=uyupd2PXbSQ" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="photos">
+        <h2>Photos</h2>
+        <img src="taylor.jpg" alt="Taylor Swift">
+    </section>
+
+    <footer>
+        <p> 2025 Taylor Swift Fan Page | All rights reserved.</p>
+    </footer>
+</body>
+</html>
