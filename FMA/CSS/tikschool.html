@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        *{
+           margin left: 10px;
+        }
+        div p{
+            background-color: red;
+        }
+        div>p{
+            background-color: blue;
+        }
+        div,p{
+            color: palevioletred;
+        }
+        div+p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        div~p{
+            font-size: 50px;
+        }
+</style>
+</head>
+<body>
+    <div>
+        <p>Paragrafi i pare</p>
+        <p>Paragrafi i dyte</p>
+    </div>
+    <p>Paragrafi i trete</p>
+    <p>Paragrafi i katert</p>
+</body>
+</html>

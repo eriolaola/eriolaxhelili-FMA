@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Border</title>
+    <style>
+        .clickable-image {
+            cursor: pointer;
+            transition: border 0.3s;
+        }
+
+        .clickable-image.clicked {
+            border: 5px solid red; /* Ndryshoni ngjyrën dhe gjerësinë e bordurës sipas dëshirës tuaj */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://static.vecteezy.com/system/resources/previews/046/409/840/non_2x/avatar-profile-icon-in-flat-style-female-user-profile-illustration-on-isolated-background-women-profile-sign-business-concept-vector.jpg" alt="Klikoni për bordurë" class="clickable-image" id="image">
+
+    <script>
+        const image = document.getElementById('image');
+
+        image.addEventListener('click', () => {
+            image.classList.toggle('clicked');
+        });
+    </script>
+</body>
+</html>

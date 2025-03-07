@@ -1,0 +1,31 @@
+div:nth-child(odd){
+    background-color: gray;
+    color: white;
+    h1{
+        font-size: 5em;
+        text-decoration: underline;
+    }
+    p{
+        font-size: 2em;
+    }
+}
+div:nth-child(even){
+    background-color: whitesmoke;
+    h1{
+        font-size: 5em;
+        text-decoration: underline;
+    }
+    p{
+        font-size: 2em;
+    }
+}
+.section{
+    height: 25vh;
+}
+body{
+    margin: 0;
+}
+hr{
+    width: 33%;
+    border: 1px solid darkred;
+}

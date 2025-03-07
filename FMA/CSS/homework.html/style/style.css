@@ -1,0 +1,40 @@
+div{
+    box-shadow: 0 0 5px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 50px;
+    border-radius: 20px;
+}
+h1{
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: 40px;
+}
+p{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+button{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+.video{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 0 0;
+    border: 2px solid;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+}
+.video p{
+   font-size: 20px;
+}
